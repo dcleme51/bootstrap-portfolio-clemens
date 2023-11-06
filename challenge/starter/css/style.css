@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  background-image: url("../images/light-grey-tech-background-image.avif");
+
+}
+
+nav {
+  width: 100%;
+  height: 150px;
+  line-height: 75px;
+  padding: 50px;
+  background-image: linear-gradient(#56575b, #f7f4ff);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  padding: 75px;
+  padding-bottom: 45px;
+
+}
+
+nav ul {
+  float: right;
+
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+
+}
+
+nav li a {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+.nav-titles a:hover {
+  text-decoration: underline;
+}
+
+.hero-banner {
+  background-image: url("../images/Low-code-screen-banner-desktop.webp");
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#Aboutsec {
+  background-color: rgba(77, 76, 76, 0.404)
+}
+
+#about {
+  font-size: 50px;
+  justify-content: center;
+  display: flex;
+
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+
+#circle {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border-color: black;
+  border-style: double;
+  /* margin-left: 10%; */
+  bottom: 5%;
+  position: relative;
+  margin-bottom: 2rem;
+
+}
+
+.text-box {
+  width: 70%;
+
+}
+
+#about-text {
+  font-size: 25px;
+  margin-top: 5%;
+
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  background-image: url("../images/Low-code-screen-banner-desktop.webp");
+
+}
+
+.page-section h3 {
+  font-size: 20px;
+  color: white;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 3% 20% 3% 20%;
+
+}
+
+.flex-item {
+  min-height: 200px;
+  max-height: 200px;
+  /* makes an element 50% wide with extra space on the right */
+  width: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 1%;
+  background-size: 150%;
+  border: black solid 3px;
+
+}
+
+.flex-item:first-child {
+  min-height: 500px;
+  flex-basis: 100%;
+
+}
+
+
+.refactor-challenge {
+  background-image: url("../images/Code-Refactoring.png");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.bootstrap {
+  background-image: url("../images/bootstrap-5.0-illustration.png");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.javascript {
+  background-image: url("../images/java-script.jpeg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.javascript-skills {
+  background-image: url("../images/thumb-rest-api.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.resume {
+  background-image: url("../images/download.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.contact-footer {
+  background-image: url("../images/Low-code-screen-banner-desktop.webp");
+  color: white;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.contact-footer h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contact-info p {
+  font-size: 20px;
+  margin: 0;
+  padding: 0 40px;
+
+}
+
+.contact-info a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+
+}
+
+@media screen and (max-width: 600px) {
+  nav li a {
+    font-size: 12px;
+    padding: 0px
+  }
+
+  nav {
+    flex-direction: column;
+
+  }
+
+  nav ul {
+    float: right;
+    display: flex;
+    flex-direction: column;
+  }
+
+}
