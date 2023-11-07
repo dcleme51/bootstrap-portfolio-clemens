@@ -85,9 +85,6 @@ nav li a {
 
 }
 
-.jumbotron{
-  
-}
 
 .about-content {
   display: flex;
@@ -103,7 +100,7 @@ nav li a {
   border-color: black;
   border-style: double;
   /* margin-left: 10%; */
-  bottom: 5%;
+  bottom: 10%;
   position: relative;
   margin-bottom: 2rem;
 
