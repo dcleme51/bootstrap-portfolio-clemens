@@ -45,8 +45,8 @@ nav li {
 nav li a {
   font-size: 18px;
   text-transform: uppercase;
-  padding: 0px 30px;
-  color: black;
+  padding: 0px 50px;
+  color: white;
   font-weight: bold;
   text-decoration: none;
 
@@ -54,6 +54,16 @@ nav li a {
 
 .nav-titles a:hover {
   text-decoration: underline;
+}
+
+.nav-right {
+  justify-content: flex-end;
+  color: white;
+
+}
+
+.nav-link{
+  padding: 0 30px;
 }
 
 .hero-banner {
@@ -73,6 +83,10 @@ nav li a {
   justify-content: center;
   display: flex;
 
+}
+
+.jumbotron{
+  
 }
 
 .about-content {
@@ -227,7 +241,7 @@ nav li a {
 @media screen and (max-width: 600px) {
   nav li a {
     font-size: 12px;
-    padding: 0px
+    padding: 0px;
   }
 
   nav {
@@ -239,6 +253,12 @@ nav li a {
     float: right;
     display: flex;
     flex-direction: column;
+  }
+
+  .nav-right{
+    color: white;
+    justify-content: flex-end;
+
   }
 
 }
