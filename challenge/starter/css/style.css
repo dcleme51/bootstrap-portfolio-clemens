@@ -62,7 +62,7 @@ nav li a {
 
 }
 
-.nav-link{
+.nav-link {
   padding: 0 30px;
 }
 
@@ -74,24 +74,21 @@ nav li a {
 
 }
 
-#Aboutsec {
-  background-color: rgba(77, 76, 76, 0.404)
-}
 
-#about {
+.display-4 {
   font-size: 50px;
-  justify-content: center;
+  justify-content: left;
   display: flex;
+  margin-left: 1%;
 
 }
-
 
 .about-content {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
-}
 
+}
 
 #circle {
   height: 400px;
@@ -99,10 +96,11 @@ nav li a {
   border-radius: 50%;
   border-color: black;
   border-style: double;
-  /* margin-left: 10%; */
-  bottom: 10%;
-  position: relative;
   margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  justify-content: center;
+
 
 }
 
@@ -111,9 +109,9 @@ nav li a {
 
 }
 
-#about-text {
+.lead {
   font-size: 25px;
-  margin-top: 5%;
+  margin-left: 1%;
 
 }
 
@@ -126,73 +124,12 @@ nav li a {
 
 }
 
-.page-section h3 {
-  font-size: 20px;
-  color: white;
-
-}
-
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-between;
   padding: 3% 20% 3% 20%;
-
-}
-
-.flex-item {
-  min-height: 200px;
-  max-height: 200px;
-  /* makes an element 50% wide with extra space on the right */
-  width: calc(50% - 1em);
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 1%;
-  background-size: 150%;
-  border: black solid 3px;
-
-}
-
-.flex-item:first-child {
-  min-height: 500px;
-  flex-basis: 100%;
-
-}
-
-
-.refactor-challenge {
-  background-image: url("../images/Code-Refactoring.png");
-  background-size: cover;
-  background-position: center;
-
-}
-
-.bootstrap {
-  background-image: url("../images/bootstrap-5.0-illustration.png");
-  background-size: cover;
-  background-position: center;
-
-}
-
-.javascript {
-  background-image: url("../images/java-script.jpeg");
-  background-size: cover;
-  background-position: center;
-
-}
-
-.javascript-skills {
-  background-image: url("../images/thumb-rest-api.jpg");
-  background-size: cover;
-  background-position: center;
-
-}
-
-.resume {
-  background-image: url("../images/download.jpg");
-  background-size: cover;
-  background-position: center;
 
 }
 
@@ -232,30 +169,5 @@ nav li a {
 
 .contact-info a:hover {
   text-decoration: underline;
-
-}
-
-@media screen and (max-width: 600px) {
-  nav li a {
-    font-size: 12px;
-    padding: 0px;
-  }
-
-  nav {
-    flex-direction: column;
-
-  }
-
-  nav ul {
-    float: right;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .nav-right{
-    color: white;
-    justify-content: flex-end;
-
-  }
 
 }
